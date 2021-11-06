@@ -1,44 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@FDREAL 
-FDREAL
-/
-plantuml
-Public
-forked from plantuml/plantuml
-0
-0
-510
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-plantuml/themes/puml-theme-cerulean-outline.puml
-@FDREAL
-FDREAL Update puml-theme-cerulean-outline.puml
-Latest commit 2f26958 3 minutes ago
- History
- 2 contributors
-@FDREAL@bschwarz
-471 lines (391 sloc)  7.67 KB
-   
-''
-'' Cerulean theme based off of the bootstrap theme of the same name
-'' https://bootswatch.com/cerulean/
-''
-'' Author: Brett Schwarz
-'' Copyright (c) 2019 by Brett Schwarz
-
-!$THEME = "cerulean-outline"
+!$THEME = "fede-cerulean-outline"
 
 !if %not(%variable_exists("$BGCOLOR"))
 !$BGCOLOR = "transparent"
@@ -502,15 +462,3 @@ wbsDiagram {
 </style>
 !endsub
 !endif
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

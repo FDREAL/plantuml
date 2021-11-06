@@ -367,8 +367,8 @@ skinparam rectangle {
 skinparam package {
 	BackgroundColor $BGCOLOR
   	BorderColor $PRIMARY
-	FontColor $PRIMARY
-	BorderThickness 2
+	FontColor $DARK
+	BorderThickness 3
 }
 !endsub
 

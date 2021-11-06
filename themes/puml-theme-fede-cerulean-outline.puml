@@ -76,7 +76,7 @@ skinparam useBetaStyle false
 '' Global Default Values
 ''
 skinparam defaultFontName       "Verdana"
-skinparam defaultFontSize       12
+skinparam defaultFontSize       16
 skinparam dpi                   100
 skinparam shadowing             false
 skinparam roundcorner           8
@@ -342,7 +342,7 @@ skinparam object {
 
 skinparam usecase {
 	$primary_scheme()
-	BorderThickness 3
+	BorderThickness 2
 	StereotypeFontColor $PRIMARY
 }
 !endsub

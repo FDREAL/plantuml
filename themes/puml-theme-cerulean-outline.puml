@@ -50,27 +50,27 @@ skinparam useBetaStyle false
 ''
 '' Colors taken from the css file of the BS theme
 ''
-!$BLUE = "#033C73"
-!$INDIGO = "#6610F2"
-!$PURPLE = "#6F42C1"
-!$PINK = "#E83E8C"
-!$RED = "#C71C22"
-!$ORANGE = "#FD7E14"
-!$YELLOW = "#DD5600"
-!$GREEN = "#73A839"
-!$TEAL = "#20C997"
-!$CYAN = "#2FA4E7"
+!$BLUE = "#000000"
+!$INDIGO = "#000000"
+!$PURPLE = "#000000"
+!$PINK = "#000000"
+!$RED = "#000000"
+!$ORANGE = "#000000"
+!$YELLOW = "#000000"
+!$GREEN = "#000000"
+!$TEAL = "#000000"
+!$CYAN = "#000000"
 !$WHITE = "#FFF"
-!$GRAY_DARK = "#343A40"
-!$GRAY = "#868E96"
+!$GRAY_DARK = "#000000"
+!$GRAY = "#000000"
 !$PRIMARY = $GRAY_DARK
-!$SECONDARY = "#E9ECEF"
-!$SUCCESS = "#73A839"
-!$INFO = "#033C73"
-!$WARNING = "#DD5600"
-!$DANGER = "#C71C22"
-!$LIGHT = "#F8F9FA"
-!$DARK = "#343A40"
+!$SECONDARY = "#000000"
+!$SUCCESS = "#000000"
+!$INFO = "#000000"
+!$WARNING = "#000000"
+!$DANGER = "#000000"
+!$LIGHT = "#000000"
+!$DARK = "#000000"
 
 '' *_LIGHT = tint (lighter) of the main color of 80%
 ''          where TINT is calculated by clr + (255-clr) * tint_factor
@@ -78,19 +78,19 @@ skinparam useBetaStyle false
 ''          and SHADE is calculated by clr * (1 - shade_factor)
 ''
 !$FGCOLOR = $DARK
-!$PRIMARY_LIGHT = "#59B6EC"
-!$PRIMARY_DARK = "#2683B9"
+!$PRIMARY_LIGHT = "#000000"
+!$PRIMARY_DARK = "#000000"
 !$PRIMARY_TEXT = $PRIMARY
-!$SECONDARY_LIGHT = "#EDF0F2"
-!$SECONDARY_DARK = "#BABDBF"
+!$SECONDARY_LIGHT = "#000000"
+!$SECONDARY_DARK = "#000000"
 !$SECONDARY_TEXT = $SECONDARY_DARK
-!$INFO_LIGHT = "#35638F"
+!$INFO_LIGHT = "#000000"
 !$INFO_TEXT = $INFO
-!$SUCCESS_LIGHT = "#8FB961"
+!$SUCCESS_LIGHT = "#000000"
 !$SUCCESS_TEXT = $SUCCESS
-!$WARNING_LIGHT = "#E47833"
+!$WARNING_LIGHT = "#000000"
 !$WARNING_TEXT = $WARNING
-!$DANGER_LIGHT = "#D2494E"
+!$DANGER_LIGHT = "#000000"
 !$DANGER_TEXT = $WHITE
 
 !procedure $success($msg)
@@ -276,8 +276,8 @@ skinparam boundary {
 
 skinparam agent {
 	BackgroundColor $BGCOLOR
-	BorderColor #999999
-	FontColor #333333
+	BorderColor #000000
+	FontColor #000000
 }
 !endsub
 
@@ -340,8 +340,8 @@ skinparam node {
 !startsub cloud
 
 skinparam cloud {
-	BackgroundColor #F2FCFE-#eeeeee
-	BorderColor #F2FCFE
+	BackgroundColor #000000-#000000
+	BorderColor #000000
 	FontColor $DARK
 }
 !endsub
